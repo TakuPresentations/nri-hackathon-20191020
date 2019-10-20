@@ -1,41 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta property="og:title" content="鉄道Pacman">
-		<meta property="og:type" content="article">
-		<meta property="og:site_name" content="鉄道Pacman">
-		<meta property="og:url" content="https://takupresentations.github.io/nri-hackathon-20191020/">
-		<meta property="og:image" content="https://takupresentations.github.io/nri-hackathon-20191020/images/pacman.png">
-		<meta property="og:image:width" content="640">
-		<meta property="og:image:height" content="480">
-		<meta property="og:description" content="鉄道Pacman">
-		<title>鉄道Pacman</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta property="og:title" content="鉄道Pacman" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="鉄道Pacman" />
+    <meta property="og:url" content="https://takupresentations.github.io/nri-hackathon-20191020/"/>
+    <meta property="og:image" content="https://takupresentations.github.io/nri-hackathon-20191020/images/pacman.png"/>
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="480" />
+    <meta property="og:description" content="鉄道Pacman" />
+    <title>鉄道Pacman</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102679583-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-102679583-2');
+      gtag("config", "UA-102679583-2");
     </script>
 	</head>
 	<body>
@@ -47,32 +54,6 @@
 				<section>
 					<h2>メンバー紹介</h2>
 					<table>
-							<!-- <td>
-								<img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p320x320/12065942_961723443900740_217399878221139281_n.jpg?_nc_cat=100&_nc_eui2=AeFRuu_yRcbMWyt3mVpNLYVUrUF8-5Vuyv45qkgToPMgy1ZfSDsoszN3XAWtCCgUk1hXomu2tb2WiF11M6LGjsK1UbN7LkI-aYmDkGiOVHzqgg&_nc_oc=AQmUr76JlI9z90Fledw7iIAHCvHDlgluin4fzDZ4MKD13u31oQmkRXleGNAlQOzXF0g&_nc_ht=scontent-nrt1-1.xx&oh=4b984e3315fa3ef56ebafe38f01d7904&oe=5DD8B469" width="256" height="256" alt="TakuKobayashi">
-							</td>
-							<td>
-								<img src="https://user-images.githubusercontent.com/15815374/67154396-d6db7180-f336-11e9-8f73-0b1a28432cbc.jpg">
-							</td>
-							<td>
-								<img src="https://user-images.githubusercontent.com/15815374/67154396-d6db7180-f336-11e9-8f73-0b1a28432cbc.jpg">
-							</td>
-							<td>
-								<img src="https://user-images.githubusercontent.com/15815374/67154396-d6db7180-f336-11e9-8f73-0b1a28432cbc.jpg">
-							</td>
-							<td>
-								<img src="https://user-images.githubusercontent.com/15815374/67154396-d6db7180-f336-11e9-8f73-0b1a28432cbc.jpg">
-							</td>
-							<td>
-								<ul>
-    		  			  <li>小林拓</li>
-		    	  			<li><a href="https://twitter.com/taptappun">@taptappun</a></li>
-						      <li>フルスタックエンジニア</li>
-      						<li>Unity歴は4年3ヶ月</li>
-									<li>現在の所属: <a href="https://www.wantedly.com/companies/bitbank">ビットバンク</a></li>
-								</ul>
-							</td>
-					</tr> -->
-
 							<tr>
 							<td>
 								<img src="https://user-images.githubusercontent.com/15815374/67154396-d6db7180-f336-11e9-8f73-0b1a28432cbc.jpg" width="200" height="200" style="object-fit: cover">
@@ -111,94 +92,57 @@
 							</tr>
 							</table>
 			  </section>
-				<section>
-					<h2>Websocket</h2>
-					<p>Webにおいて双方向通信を行う為の仕組み。</p>
-					<p><img src="https://docs.microsoft.com/ja-jp/azure/application-gateway/media/application-gateway-websocket/websocket.png"></p>
-					<p>ゲームだと通称「マルチプレイ」といわれます。</p>
-				</section>
-				<section>
-					<h2>通信について詳しくはこちら</h2>
-					<p><a href="https://www.slideshare.net/takukobayashi560/ss-96591461"><img src="https://image.slidesharecdn.com/correspondence-180510052403/95/-1-638.jpg?cb=1525929967" alt="transport"></a></p>
-				</section>
-				<section>
-					<h2>ゲームの業界の豆知識</h2>
-					<p>今だと売れるスマホゲームを作るには<br>マルチプレイが実装の実装は必須</p>
-				</section>
-				<section>
-					<h2>マルチプレイでよく使われる<br>ライブラリ</h2>
-					<table>
-					  <tr>
-							<td><a href="https://www.photonengine.com/"><img src="https://support.photonengine.jp/hc/article_attachments/115019498487/photon_logo_rgb.png" width="300" height="82" alt="transport"></a></td>
-							<td><a href="https://monobit.co.jp/"><img src="https://monobit.co.jp/wp-content/themes/monobit-150413/shared/image/logo_monobit.png" alt="transport"></a></td>
-						</tr>
-					</table>
-					<p>ただしお高い...</p>
-				</section>
-				<section>
-					<p>たしかに双方向通信の実装は大変だし...</p>
-					<p>勉強するハードルも高い...</p>
-				</section>
-				<section>
-					<h2>お手軽に実装(試せる)サンプルを用意しました!!</h2>
-					<p><a href="https://github.com/TakuKobayashi/websocket_server_sample"><img src="./images/websocket_sample.png"></a></p>
-				</section>
-				<section>
-					<h2>デモ</h2>
-					<p><img src="http://www.gundam-c.com/other/wise-remark/gundam/image/char03.jpg" alt="misetemoraouka-sha"></p>
-					<p>見せてもらいおうか!!Websocketのデモの性能とやらを...</p>
-				</section>
-				<section>
-					<h2>サンプルの注意点</h2>
-					<p>Websocketサーバーに繋がっている人全員に送り返します</p>
-				</section>
-				<section>
-					<h2>マルチプレイの運用において<br>考えておくべきこと</h2>
-					<ol>
-						<li>スケールアウト</li>
-						<li>ネットワークの寸断・再接続</li>
-						<li>電池の消耗</li>
-						<li>サーバーのお値段</li>
-						<li>パケ詰まり</li>
-					</ol>
-				</section>
-				<section>
-					<h2>マルチプレイの実装・運用は<br>サーバーエンジニアには悩ましい</h2>
-					<p><img src="https://image.itmedia.co.jp/games/articles/0607/15/ki_pokemon20.jpg" alt="nayaminotane"></p>
-				</section>
-				<section>
-					<h2>マルチプレイの今後の展望</h2>
-					<ol>
-						<li>VR/ARでのマルチプレイ</li>
-						<li>e-sports/ゲーム実況動画でのリアルタイムコミュニケーション(チャット)</li>
-					</ol>
-					とかとか
-				</section>
-				<section>
-					<h2>ご静聴ありがとうございました</h2>
-				</section>
-			</div>
-		</div>
+        <section>
+          <h2>Websocket</h2>
+          <p>Webにおいて双方向通信を行う為の仕組み。</p>
+          <p>
+            <img src="https://docs.microsoft.com/ja-jp/azure/application-gateway/media/application-gateway-websocket/websocket.png"/>
+          </p>
+          <p>ゲームだと通称「マルチプレイ」といわれます。</p>
+        </section>
+        <section>
+          <h3>IBM Cloud Foundryにデプロイ</h3>
+          <img
+            src="./images/cloudfoundary.png"
+            alt="CloudFoundary"
+            width="800px"
+            height="450px"
+            style="background-color: white;"
+          />
+          <p>
+            <a href="https://tokyo-packman.us-south.cf.appdomain.cloud/" target="_blank">websocket試せるかと</a>
+          </p>
+        </section>
+        <section>
+          <h2>kintoneとの連携</h2>
+          <video controls="controls" width="1200" height="600">
+            <source src="./video/nri-hakathon-2019-720.mov" />
+          </video>
+        </section>
+        <section>
+            <h2>ご静聴ありがとうございました</h2>
+        </section>
+      </div>
+    </div>
 
-		<script src="js/reveal.js"></script>
+    <script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				history: true,
-				keyboard: true,
-				defaultTiming: 800,
-				transition: 'zoom',
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        history: true,
+        keyboard: true,
+        defaultTiming: 800,
+        transition: "zoom",
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          { src: "plugin/highlight/highlight.js", async: true }
+        ]
+      });
+    </script>
+  </body>
 </html>
-
